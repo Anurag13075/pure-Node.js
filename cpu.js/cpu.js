@@ -2,9 +2,9 @@ import os from "node:os";  // imported is module from node.js
 
 function monitor() {
   setTimeout(() => {
-    const newcpus = os.cpus();
+    const newcpus = os.cpus(); // it is a method that provides information about each CPU/core installed.
     const oldcpus = os.cpus();
-    const usage = newcpus.map((cpu, i) => {
+    const usage = newcpus.map((cpu, i) => { // loop
       return {
         core: i,
         usage: calculateCpus(oldcpus[i], newcpus[i]) + "%",
