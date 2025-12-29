@@ -4,7 +4,7 @@ function monitor() {
   setTimeout(() => {
     const newcpus = os.cpus(); // it is a method that provides information about each CPU/core installed.
     const oldcpus = os.cpus();
-    const usage = newcpus.map((cpu, i) => { // loop
+    const usage = newcpus.map((cpu, i) => { // looping through it 
       return {
         core: i,
         usage: calculateCpus(oldcpus[i], newcpus[i]) + "%",
