@@ -1,4 +1,4 @@
-import os from "node:os";
+import os from "node:os";  // imported is module from node.js
 
 function monitor() {
   setTimeout(() => {
