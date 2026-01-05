@@ -10,6 +10,7 @@ function monitor() {
         usage: calculateCpus(oldcpus[i], newcpus[i]) + "%",
       };
     });
+    
     console.clear();
     console.table(usage);
 
