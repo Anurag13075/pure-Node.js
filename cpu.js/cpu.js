@@ -10,9 +10,10 @@ function monitor() {
         usage: calculateCpus(oldcpus[i], newcpus[i]) + "%",
       };
     });
-    
+
     console.clear();
     console.table(usage);
+    console.log(`Total memory is ${(os.totalmem() / (1024 * 1024 * 1024)).toFixed(2)}GB`);
 
     const usedMemory = (os.totalmem() - os.freemem()) / (1024 * 1024 * 1024);
     console.log(`Used memory is ${usedMemory.toFixed(2)}GB`);
