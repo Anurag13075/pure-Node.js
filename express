@@ -5,3 +5,4 @@
 //create an express application
 //creating an instance of express
 //const app  = express();
+// creating first endpoint
