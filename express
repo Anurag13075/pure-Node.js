@@ -1,0 +1,4 @@
+// express is a  javascript framework for building web applications and APIs.
+//sample on how to create a simple web server using express
+// how to import express and create a server
+import express from 'express';
