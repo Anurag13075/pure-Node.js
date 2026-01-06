@@ -6,3 +6,6 @@
 //creating an instance of express
 //const app  = express();
 // creating first endpoint
+//app.get)('/', (req,res)=>{
+
+   // res.send('Hello, this is the routes.js file!')});
