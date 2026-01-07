@@ -26,5 +26,7 @@
    // res.json(Json.pars(jsonarr));
 
    // patch => updating data partially
+   // app.patch('/update', (req,res)=>{
+   // res.send('Data updated successfully!');
    //});
 
