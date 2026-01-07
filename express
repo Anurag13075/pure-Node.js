@@ -25,6 +25,6 @@
    // app.get('/json, (req,res)=>{
    // res.json(Json.pars(jsonarr));
 
-   // patch
+   // patch => updating data partially
    //});
 
