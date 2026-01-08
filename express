@@ -33,4 +33,8 @@
    // app.delete('/delete', (req,res)=>{
    // res.send('Data deleted successfully!');
    //});
+   //update => updating data completely
+   // app.put('/update', (req,res)=>{
+   // res.send('Data updated successfully!');
+   //});
 
