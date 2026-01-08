@@ -49,5 +49,7 @@
 //app.us((req,res,next)=>{
 // console.log(`${req.method} request for ${req.url}`);
 // next();
-//});  // example of using middleware in express
+//});  // example of using middleware in express.
+
+//next => function that passes control to the next middleware function
 
