@@ -42,3 +42,7 @@
 
 // Note: Uncomment the code lines to run the server and test the endpoints.
 
+// middleware => functions that have access to the request and response objects
+// used for logging, authentication, error handling etc.
+// example of a simple middleware function
+
