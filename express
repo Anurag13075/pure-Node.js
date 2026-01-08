@@ -53,3 +53,7 @@
 
 //next => function that passes control to the next middleware function
 
+//body-parser => middleware for parsing incoming request bodies
+// used to parse JSON, URL-encoded data etc.
+// example of using body-parser middleware
+
