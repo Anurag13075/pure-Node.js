@@ -29,5 +29,8 @@
    // app.patch('/update', (req,res)=>{
    // res.send('Data updated successfully!');
    //});
-   //middleware=>
+   //delete => deleting data
+   // app.delete('/delete', (req,res)=>{
+   // res.send('Data deleted successfully!');
+   //});
 
