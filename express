@@ -37,4 +37,8 @@
    // app.put('/update', (req,res)=>{
    // res.send('Data updated successfully!');
    //});
+   //exporting the app module
+   // export default app;
+
+// Note: Uncomment the code lines to run the server and test the endpoints.
 
