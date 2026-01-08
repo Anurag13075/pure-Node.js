@@ -46,3 +46,8 @@
 // used for logging, authentication, error handling etc.
 // example of a simple middleware function
 
+//app.us((req,res,next)=>{
+// console.log(`${req.method} request for ${req.url}`);
+// next();
+//});  // example of using middleware in express
+
