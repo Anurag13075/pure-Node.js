@@ -61,3 +61,7 @@
 //app.use(bodyParser.json()); // for parsing application/json
 //app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
+//routing => defining endpoints for handling requests
+// used to organize application into smaller parts
+// example of defining routes in express
+
