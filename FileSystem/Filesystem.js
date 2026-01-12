@@ -68,4 +68,4 @@ async function deleteFile(pathname) {
 //project idea => Using these methods create a cli programs in which there are many inputs like create a file , read a file , delete a file , or folders according to the user choice it will do the operation of files it will be a very good program for mastering file system in node.js and hepls you become  a good programmer
 
 // you will learn synchronous and asynchronous concepts in this program switch case , if else , functions and file methods it will be a good program for your resume thanks stay updated for more like this💕✅🚀.
-
+// you can know about how the thread works in javasript 
