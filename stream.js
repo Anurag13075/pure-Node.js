@@ -25,7 +25,7 @@ const raddblestream = new Readble({ //  creating a readble stream
    
     
 })
-readblestream.on('data',(chunk)=>{
+readblestream.on('data',(chunk)=>{  // data event is emitted when data is available to be read from the stream
     console.log(`received ${chunk.length} bytes of data`);
 });
 
