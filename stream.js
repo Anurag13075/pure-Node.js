@@ -9,9 +9,9 @@ import fs, { read } from  'fs';
 
 
 //creating a readble stream
-const raddblestream = new Readble({
-    const file =  fs.createReadStream(addEventListener.txt);
-    read(size){
+const raddblestream = new Readble({ //  creating a readble stream 
+    const file =  fs.createReadStream(addEventListener.txt); // creating a readble stream from a file
+    read(size){ // read method is called when data is to be read from the stream
         const chunk = file.read(size);
         if(chunk){
             this.push(chunk);
