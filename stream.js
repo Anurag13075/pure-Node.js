@@ -35,7 +35,7 @@ readblestream.on('end',()=>{
 });
 readblestream(file);
 
- const emmiter  = new EventEmitter()
- emmiter.on('message', (data)=>{
+ const emmiter  = new EventEmitter(); // entity that emits events
+ emmiter.on('message', (data)=>{ // reaching the event
     console.log(`message received: ${data}`);
  })
