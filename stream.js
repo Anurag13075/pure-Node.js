@@ -5,7 +5,7 @@
 import {Readble } from 'stream';
 import { Writable } from 'stream';
 import fs, { read } from  'fs';
-
+import { EventEmitter } from 'stream';
 
 
 //creating a readble stream
@@ -23,6 +23,7 @@ const raddblestream = new Readble({ //  creating a readble stream
         }
     }
    
+    // creating an event emitter
     
 })
 readblestream.on('data',(chunk)=>{  // data event is emitted when data is available to be read from the stream
@@ -33,3 +34,8 @@ readblestream.on('end',()=>{
     console.log('no more data');
 });
 readblestream(file);
+
+ const emmiter  = new EventEmitter()
+ emmiter.on('message', (data)=>{
+    console.log(`message received: ${data}`);
+ })
