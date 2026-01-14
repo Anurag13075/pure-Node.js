@@ -222,6 +222,8 @@
          case 'find': await cmdFind(args._[1] || '.', args); break;
          case 'replace': await cmdReplace(args._[1], args); break;
          case 'hash': await cmdHash(args._[1], args); break;
+         case 'grep' :await cmdgrep(args._[1], args._[2]); break;
+         
          case 'interactive':
            await interactive();
            break;
