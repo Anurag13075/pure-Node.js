@@ -132,6 +132,22 @@
      await fsp.rename(src, dest);
      console.log('Moved', src, '→', dest);
    }
+   async function cmdgrep(dir, words ){
+    const files = await fsp.readdir(dir);
+    for(const file of files){
+        const fullpath = path.join (dir, file);
+        const stat = await fsp.stat
+        (fullpath);
+        if(stat.isDirectory()){
+            await cmdgrep(fullpath, words);
+        } else {
+            const content = await fsp.readFile(fullpath, 'utf8');
+            if(content.includes(words)){
+                console.log(`Found in file: ${fullpath}`);
+            }
+        }
+    }
+   }
    
    async function cmdList(dir, opts) {
      const out = [];
@@ -240,4 +256,3 @@
    
 
 
-   
