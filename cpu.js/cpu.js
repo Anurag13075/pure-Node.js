@@ -11,6 +11,8 @@ function monitor() {
       };
     });
 
+
+    
     console.clear();
     console.table(usage);
     console.log(`Total memory is  the ${(os.totalmem() / (1024 * 1024 * 1024)).toFixed(2)}GB`);
