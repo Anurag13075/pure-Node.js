@@ -61,7 +61,7 @@ node advanced-file-cli.js
 - `replace <file> --from <a> --to <b>` — Replace text 
 occurrences (simple string replace)
 - `hash <file> [--algo <name>]` — Compute stream hash (default `sha256`)
-
+-`grep <file> it is a new function to grep any word in directory`
 ## Interactive Mode
 Run without arguments to enter a prompt (fm>). Useful for iterative exploration and quick experiments. Type `help` inside the prompt to view available commands.
 
