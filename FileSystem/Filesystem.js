@@ -69,6 +69,7 @@ async function deleteFile(pathname) {
 
 // you will learn synchronous and asynchronous concepts in this program switch case , if else , functions and file methods it will be a good program for your resume thanks stay updated for more like this💕✅🚀.
 // you can know about how the thread works in javasript 
+//filesystems are a important part of fs in node.js 
 
 
 
