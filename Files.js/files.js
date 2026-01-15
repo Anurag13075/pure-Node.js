@@ -126,6 +126,9 @@
      process.stdout.write('\n');
      console.log('Copied', src, '→', dest);
    }
+
+
+   
    
    async function cmdMove(src, dest) {
      await ensureDirFor(dest);
