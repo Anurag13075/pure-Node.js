@@ -129,6 +129,7 @@
 
 
    
+
    
    async function cmdMove(src, dest) {
      await ensureDirFor(dest);
