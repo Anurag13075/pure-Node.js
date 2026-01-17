@@ -14,7 +14,7 @@ function monitor() {
 
 
     
-    
+
 
     
     console.clear();
@@ -38,5 +38,9 @@ function monitor() {
     }
     return Number((100 * used) / total).toFixed(1);
   }
+}
+
+function calcucatememory(){
+  
 }
 setInterval(monitor, 1000);
