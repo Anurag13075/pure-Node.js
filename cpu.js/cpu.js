@@ -43,14 +43,20 @@ function monitor() {
 function calcucatememory(){
  try {
    const totalmem = os.totalmem()*(1024*1024*1024);
+
    const freemem = os.freemem()*(1024*1024*1024);
    const usedmem = totalmem - freemem;
    const usedmempercentage = (usedmem/totalmem)*100;
-   return usedmempercentage.toFixed(2);
+   if(typeof usedmempercentage == NaN){
+    return "convert it to a number ";
+   }
+    usedmempercentage.toFixed(2);
+   console.table(usedmempercentage);
+
  
  } catch (error) {
   console.log(error);
-  
+
   
  }
 }
