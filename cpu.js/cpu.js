@@ -41,6 +41,14 @@ function monitor() {
 }
 
 function calcucatememory(){
-  
+  const totalmem = os.totalmem()*(1024*1024*1024);
+  const freemem = os.freemem()*(1024*1024*1024);
+  const usedmem = totalmem - freemem;
+  const usedmempercentage = (usedmem/totalmem)*100;
+  return usedmempercentage.toFixed(2);
+
 }
+
+calcucatememory();
+
 setInterval(monitor, 1000);
