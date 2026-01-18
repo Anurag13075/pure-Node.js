@@ -42,7 +42,7 @@ async function findpath(dir){
 async function readfile(pathname, content = "") {
   try {
     await fs.readFile(pathname, content);
-    console.log("read in a file");
+    console.log("reading a file");
   } catch (error) {
     console.log(error);
   }
