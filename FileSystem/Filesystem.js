@@ -52,7 +52,7 @@ async function readfile(pathname, content = "") {
 async function appendinfile(pathname, content) {
   try {
     await fs.appendFile(pathname, content);
-    console.log("appended in a file");
+    console.log("appending content  in a file");
   } catch (error) {
     console.log(error);
   }
