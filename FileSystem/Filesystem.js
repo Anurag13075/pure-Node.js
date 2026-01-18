@@ -21,6 +21,7 @@ async function createfile(pathname) {
 }
 async function findpath(dir){
   try {
+    
     const path = path.findpath(dir);
     if(!dir){
       return "not a path";
