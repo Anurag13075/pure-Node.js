@@ -12,6 +12,8 @@ A powerful, demonstration-grade command-line file manager implemented in pure No
 - Streamed hashing (`sha256` default)
 - Interactive REPL-style mode for exploration
 
+
+
 ## Quick Start
 
 Prerequisites: Node.js (LTS recommended)
