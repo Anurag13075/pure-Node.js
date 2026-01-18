@@ -7,6 +7,7 @@
 // * => star is for importing everything in fs module.
 
 import * as fs from "node:fs/promises"; //promise for asynchronous operations ;
+
 import path from "node:path";
 
 //creating a file;
@@ -16,6 +17,18 @@ async function createfile(pathname) {
     await fs.writeFile(pathname, "Created a new file");
   } catch (error) {
     console.log(error);
+  }
+}
+async function findpath(dir){
+  try {
+    const path = path.findpath(dir);
+    if(!dir){
+      return "not a path";
+    }
+    
+  } catch (error) {
+    console.log(error);
+    
   }
 }
 
