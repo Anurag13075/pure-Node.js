@@ -50,6 +50,7 @@ function calcucatememory(){
    if(typeof usedmempercentage == NaN){
     return "convert it to a number ";
    }
+   
     usedmempercentage.toFixed(2);
    console.table(usedmempercentage);
 
