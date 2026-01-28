@@ -8,6 +8,7 @@ const server = http.createServer((req, res) => { // creation of an HTTP server
 });
 
 http.get("about", (res)=>{
+    res.writeHead(200, {'Content-Type': 'text/plain' })
     res.end("hey about")
 })
 console.log("Server is starting...");
