@@ -7,6 +7,7 @@ const hour  =  Date.now.toString();
 console.log(hour)
 console.log(name);
 
+
 function greeting(hour){
     if(hour<4|| hour>=19) return "Good night"
     if(hour>9)return "Good Morning"
