@@ -58,6 +58,7 @@ node advanced-file-cli.js
 - `append <file> --content <text>` — Append text to a file
 - `delete <path>` — Delete a file or directory (directories removed recursively)
 - `copy <src> <dest>` — Stream-copy a file (shows percent progress)
+
 - `move <src> <dest>` — Move or rename a file
 - `list <dir> [--recursive]` — List directory contents
 - `stat <path>` — Show `fs.Stats` info for a path
