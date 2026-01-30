@@ -15,6 +15,11 @@ const server   = http.createServer((req,res)=>{
     res.end('Hello World\n');
 })
 
+http.get('/', (req,res)=>{
+    res.end('home route')
+})
+
+
 
 
 
