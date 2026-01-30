@@ -51,6 +51,7 @@ function calcucatememory(){
     return "convert it to a number ";
    }
    
+   
     usedmempercentage.toFixed(2);
    console.table(usedmempercentage);
 
