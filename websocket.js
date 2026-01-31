@@ -9,3 +9,6 @@ socket.addEventListener('open', function(event){
 socket.addEventListener('message', function(event){
     console.log('Message from server ', event.data);
 })
+socket.addEventListener('close', function(event){
+    console.log('WebSocket is closed now.');
+})
