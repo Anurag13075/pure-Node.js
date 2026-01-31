@@ -12,3 +12,7 @@ socket.addEventListener('message', function(event){
 socket.addEventListener('close', function(event){
     console.log('WebSocket is closed now.');
 })
+socket.addEventListener('error', function(event){
+    console.error('Wesocker error:', error);
+    
+})
