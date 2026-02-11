@@ -79,6 +79,7 @@ async function deleteFile(pathname) {
 
 
 
+
 //readFile => A built in method in fs module for reading in files .
 //mkdir => A built in method in fs module for creating directories.
 // appendFile => A built in method in fs moule for appending content in a file.
