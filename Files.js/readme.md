@@ -65,6 +65,7 @@ node advanced-file-cli.js
 - `find <dir> --pattern <regex>` — Find files by name pattern
 - `replace <file> --from <a> --to <b>` — Replace text 
 occurrences (simple string replace)
+
 - `hash <file> [--algo <name>]` — Compute stream hash (default `sha256`)
 -`grep <file> it is a new function to grep any word in directory`
 
