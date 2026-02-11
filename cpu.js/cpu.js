@@ -52,6 +52,7 @@ function calcucatememory(){
    }
    
    
+   
     usedmempercentage.toFixed(2);
    console.table(usedmempercentage);
 
