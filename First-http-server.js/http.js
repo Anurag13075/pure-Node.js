@@ -10,6 +10,7 @@ import http from 'http'; // http is a built-in module in Node.js to create web s
 // res => res is a method which is used to send response to client .
 
 
+
 const server   = http.createServer((req,res)=>{
     res.writeHead(200,{'Content-Type':'text/plain'});
     res.end('Hello World\n');
@@ -18,6 +19,7 @@ const server   = http.createServer((req,res)=>{
 http.get('/', (req,res)=>{
     res.end('home route')
 })
+
 
 
 
