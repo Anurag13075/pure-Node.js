@@ -9,6 +9,7 @@ class Node{
 
     }
 }
+    
 
 let firstnode  = new Node(10);
 let secodenode = new Node(20);
