@@ -126,11 +126,20 @@
      process.stdout.write('\n');
      console.log('Copied', src, '→', dest);
    }
+   async function cmdCopy(src, dest) {
+     await ensureDirFor(dest);
+     await pump(fs.createReadStream(src), fs.create)
+
+      .on('data', chunk => { /* progress */ });
+      console.log('Copied', src, '→', dest);
+      
+   }
+
 
 
    
 
-   
+
 
    
    
