@@ -131,8 +131,9 @@
      await pump(fs.createReadStream(src), fs.create)
 
       .on('data', chunk => { /* progress */ });
+    
       console.log('Copied', src, '→', dest);
-      
+
    }
 
 
