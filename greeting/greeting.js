@@ -17,3 +17,9 @@ function greeting(hour){
 }
  const greetings  = greeting(hour);
  
+
+ function givename(name){
+    return ${name}
+ }
+
+ givename("Anurag")
