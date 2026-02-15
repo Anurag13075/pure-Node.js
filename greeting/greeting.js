@@ -19,6 +19,7 @@ function greeting(hour){
  
 
  function givename(name){
+    if(name.length<5) return "Name is too short"
     console.log(`Hello ${name}, ${greetings}`)
  }
 
