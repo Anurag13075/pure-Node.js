@@ -23,5 +23,10 @@ function greeting(hour){
     if(name.length>20) return "Name is too long"
     console.log(`Hello ${name}, ${greetings}`)
  }
+ function sayHello(name){
+    
+    givename(name)
+ }
 
  givename("Anurag")
+ sayHello("Anurag")
