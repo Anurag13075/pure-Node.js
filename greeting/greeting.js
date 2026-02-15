@@ -19,7 +19,7 @@ function greeting(hour){
  
 
  function givename(name){
-    return ${name}
+    console.log(`Hello ${name}, ${greetings}`)
  }
 
  givename("Anurag")
