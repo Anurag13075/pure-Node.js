@@ -1,4 +1,5 @@
 import os from 'node:os'
+import fs from 'node:fs'
 console.log(os.cpus())
 
 
@@ -16,7 +17,20 @@ function greeting(hour){
     return "Good evening"
 }
  const greetings  = greeting(hour);
- 
+
+
+function findfilepath(filename){
+    const path = process.cwd();
+    const files = fs.readdirSync(path);
+    for(const file of files){
+        if(file === filename){
+            return `File ${filename} found at ${path}`;
+        }    }
+    return `File ${filename} not found in ${path}`;
+}
+
+
+findfilepath("greeting.js")
 
  function givename(name){
     if(name.length<5) return "Name is too short"
