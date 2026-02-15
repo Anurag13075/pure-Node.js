@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => { // creation of an HTTP server
 });
 
 // A server is created using the http module, which listens for incoming requests and sends responses. The server responds with a plain text message when accessed at the root URL ("/").
-
+// The server is set to listen on port 3000, and a message is logged to the console when the server starts successfully.
 
 http.get("about", (res)=>{
     res.writeHead(200, {'Content-Type': 'text/plain' })
