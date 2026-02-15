@@ -79,6 +79,17 @@ async function deleteFile(pathname) {
 
 
 
+function deleteDir(pathname) {
+  try {
+    await
+      fs.rmdir(pathname, { recursive: true });
+    console.log("directory deleted");
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+deleteDir("mydir")
 
 //readFile => A built in method in fs module for reading in files .
 //mkdir => A built in method in fs module for creating directories.
