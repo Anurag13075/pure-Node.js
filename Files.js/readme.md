@@ -71,6 +71,7 @@ occurrences (simple string replace)
 
 
 
+
 ## Interactive Mode
 Run without arguments to enter a prompt (fm>). Useful for iterative exploration and quick experiments. Type `help` inside the prompt to view available commands.
 
