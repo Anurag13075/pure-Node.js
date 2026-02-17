@@ -1,5 +1,14 @@
 import http from 'http';
-import {} from "node:events";
+import {EventEmitter} from "node:events";
+
+const data = [{
+    id: 1,
+    name: "John Doe",
+    email: "john.doe@example.com"
+}]
+EventEmitter.on("event", (data)=>{
+    console.log("Event received:", data);
+})
 
 
 
