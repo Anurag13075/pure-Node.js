@@ -1,5 +1,6 @@
 import http from 'http';
 import {EventEmitter} from "node:events";
+import { env } from 'node:process';
 
 const data = [{
     id: 1,
@@ -15,6 +16,10 @@ const data = [{
 }]
 EventEmitter.on("event", (data)=>{
     console.log("Event received:", data);
+})
+EventEmitter.on("error", (err){
+    console.log("Error", err);
+
 })
 
 
