@@ -1,5 +1,7 @@
 import http from 'http';
-import {Emmiter } from "node:events";
+import {} from "node:events";
+
+
 
 
 const server = http.createServer((req, res) => { // creation of an HTTP server
