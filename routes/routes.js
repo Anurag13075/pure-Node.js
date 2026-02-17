@@ -8,7 +8,10 @@ const data = [{
     id: 2,
     name: "Jane Smith",
     email: "jane@smith.com",
-    
+    id: 3,
+    name: "Alice Johnson",
+    email: "alice.johnson@example.com"
+
 }]
 EventEmitter.on("event", (data)=>{
     console.log("Event received:", data);
