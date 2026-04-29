@@ -71,7 +71,12 @@
      if (dir === '.' || dir === '' ) return;
      await fsp.mkdir(dir, { recursive: true });
    }
-   
+
+async function log(filepath){
+
+
+console.log("log your file path", filepath)
+}
    async function cmdCreate(file, opts) {
      await ensureDirFor(file);
      const content = opts.content || '';
