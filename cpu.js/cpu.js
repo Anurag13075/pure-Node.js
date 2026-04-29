@@ -8,6 +8,7 @@ function monitor() {
       return {
         core: i,
         usage: calculateCpus(oldcpus[i], newcpus[i]) + "%",
+        log:console.log(usage);
       };
     });
 
