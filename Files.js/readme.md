@@ -89,6 +89,8 @@ Run without arguments to enter a prompt (fm>). Useful for iterative exploration 
 - Commands like `delete` will remove directories recursively — use with care.
 - The `replace` command performs a simple global string replace; for complex transforms consider using streams or AST-based processing.
 
+##Add new function => new methods are welcome only if you follow the format  
+
 ## License
 This educational/demo code is intended for learning. Apply an appropriate open-source license (MIT recommended) if you plan to publish.
 
