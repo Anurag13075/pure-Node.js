@@ -19,7 +19,11 @@ const server   = http.createServer((req,res)=>{
 http.get('/', (req,res)=>{
     res.end('home route')
 })
+http.get('/about', (req,res)=>{
 
+
+res.end("about page")
+})
 
 
 
