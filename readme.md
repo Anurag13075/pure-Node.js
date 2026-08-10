@@ -1,12 +1,11 @@
+
+
 **Pure Node.js**
 
-** In the era of everyone fearing ai take his job i am writing tis pure javascript and node.js repo to show the power of these technologies **.
+** In the era of everyone fearing ai take his job i am writing this pure javascript and node.js repo to show the power of these technologies **.
 
 - **Project**: A curated collection of Node.js programs and learning materials.
 - **Purpose**: Learn Node.js from very basic to advanced concepts through practical examples.
-
-
-
 
 
 
@@ -77,4 +76,3 @@
 - **Attribution**: This repo is for learning and experimentation. When using code in production, review security and performance implications.
 
 Thank you for exploring Pure Node.js — enjoy learning, experimenting, and building! Stay tuned for more examples and guided progressions.
-
